@@ -1,0 +1,16 @@
+2026-06-08T14:41:50 | INFO     | ============================================================
+2026-06-08T14:41:50 | INFO     | MLOps Batch Job — START
+2026-06-08T14:41:50 | INFO     |   input  : data.csv
+2026-06-08T14:41:50 | INFO     |   config : config.yaml
+2026-06-08T14:41:50 | INFO     |   output : metrics.json
+2026-06-08T14:41:50 | INFO     |   log    : run.log
+2026-06-08T14:41:50 | INFO     | ============================================================
+2026-06-08T14:41:50 | INFO     | Config loaded  — seed=42, window=5, version=v1
+2026-06-08T14:41:50 | INFO     | Random seed set — numpy.random.seed(42)
+2026-06-08T14:41:50 | INFO     | Dataset loaded — 10,000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-06-08T14:41:50 | INFO     | Rolling mean computed — window=5, warm-up rows excluded (NaN): 4
+2026-06-08T14:41:50 | INFO     | Signal generated — 9,996 valid rows used for signal computation
+2026-06-08T14:41:50 | INFO     | Metrics written — metrics.json
+2026-06-08T14:41:50 | INFO     | Summary — rows_processed=10,000, signal_rate=0.4991, latency_ms=59
+2026-06-08T14:41:50 | INFO     | MLOps Batch Job — SUCCESS
+2026-06-08T14:41:50 | INFO     | ============================================================
