@@ -1,4 +1,4 @@
-# trading-signal-pipeline
+# TRADING-SIGNAL-PIPELINE
 
 A minimal, production-ready MLOps batch pipeline that generates binary trading signals from OHLCV price data using a rolling mean strategy.
 
